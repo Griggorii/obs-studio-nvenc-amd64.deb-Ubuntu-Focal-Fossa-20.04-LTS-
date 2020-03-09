@@ -9,6 +9,6 @@ Decklink Output support
 
 My package replace obs , obs-studio , libobs0:amd64 , obs-plugins:amd64
 
-Можно проверить так же работоспособность на ubuntu 19.04 , 19.10 и более низких версии в краинем случае если не запустится то
+Можно проверить так же работоспособность на ubuntu 19.04 , 19.10 и более низких версии в краинем случае если не запустится то вернуть исходную версию от своего дистрибутива командой ниже
 
-$$ sudo apt purge obs-studio && sudo apt update && sudo apt --reinstall install obs-studio и врнуть исходную версию от своего дистрибутива
+$$ sudo apt purge obs-studio && sudo apt update && sudo apt --reinstall install obs-studio
