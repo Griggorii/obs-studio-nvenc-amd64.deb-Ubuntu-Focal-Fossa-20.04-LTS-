@@ -9,7 +9,7 @@ Decklink Output support
 
 decklink-ouput-ui edit wayland , pipewire alternative edit decklinkOutputProps.json decklinkPreviewOutputProps.json
 
-$$ mv plugin_config /.config/obs-studio/
+$$ mv plugin_config ~/.config/obs-studio/plugin_config/
 
 My package replace obs , obs-studio , libobs0:amd64 , obs-plugins:amd64
 
