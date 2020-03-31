@@ -5,6 +5,13 @@ Run in folder obs-studio_23.2.3-1_amd64.deb
 
 $$ sudo dpkg -i obs-studio_23.2.3-1_amd64.deb
 
+$$ sudo ln -s /usr/lib/libobs-opengl.so.0.0 /usr/lib/libobs-opengl.so.0
+
+$$ sudo ln -s /usr/lib/x86_64-linux-gnu/libobs-opengl.so.0.0 /usr/lib/x86_64-linux-gnu/libobs-opengl.so.0
+
+$$ sudo ln -s /usr/lib/x86_64-linux-gnu/libobs-frontend-api.so.0.0 /usr/lib/x86_64-linux-gnu/libobs-frontend-api.so.0
+
+
 Decklink Output support
 
 decklink-ouput-ui edit wayland , pipewire alternative edit decklinkOutputProps.json decklinkPreviewOutputProps.json
